@@ -1,0 +1,27 @@
+
+# Define a function to mix two primary colors
+def mix_colors(color1, color2):
+    # Dictionary of color mixes
+    color_mixes = {
+        ('red', 'blue'): 'purple',
+        ('red', 'yellow'): 'orange',
+        ('blue', 'yellow'): 'green',
+        # Add the reverse combinations
+        ('blue', 'red'): 'purple',
+        ('yellow', 'red'): 'orange',
+        ('yellow', 'blue'): 'green'
+    }
+    
+    # Return the mixed color or a message if the mix is not possible
+    return color_mixes.get((color1, color2), "Can't mix these colors")
+
+# Ask the user for two primary colors
+color1 = input("Enter the first primary color (red, blue, yellow): ").lower()
+color2 = input("Enter the second primary color (red, blue, yellow): ").lower()
+
+# Mix the colors and output the result
+mixed_color = mix_colors(color1, color2)
+print(f"The mixed color is: {mixed_color}")
+```
+
+When you run this script, it will prompt you to enter the two primary colors, and upon pressing enter, it will display the result of the mixed color. If the colors entered are not primary or cannot be mixed, it will inform you that the mix is not possible. Enjoy mixing colors!
