@@ -23,5 +23,3 @@ color2 = input("Enter the second primary color (red, blue, yellow): ").lower()
 mixed_color = mix_colors(color1, color2)
 print(f"The mixed color is: {mixed_color}")
 ```
-
-When you run this script, it will prompt you to enter the two primary colors, and upon pressing enter, it will display the result of the mixed color. If the colors entered are not primary or cannot be mixed, it will inform you that the mix is not possible. Enjoy mixing colors!
