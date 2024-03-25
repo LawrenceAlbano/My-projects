@@ -58,3 +58,13 @@
   height: 200px; /* Set your desired height */
   object-fit: contain; /* This will contain the whole image within the area */
 }
+
+
+.section div {
+  width: 45%; /* Adjust the width as needed */
+  text-align: center; /* Centers the text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers the content vertically */
+  align-items: center; /* Centers the content horizontally */
+}
