@@ -11,8 +11,10 @@
   .nav ul { list-style-type: none; margin: 0; padding: 0; }
   .nav ul li { display: inline; margin-right: 10px; }
   .nav ul li a { color: white; text-decoration: none; }
-  .section { margin: 20px 0; }
+  .section { display: flex; justify-content: space-around; margin: 20px 0; }
+  .section div { width: 45%; }
   .section img { width: 100%; height: auto; }
+  .image-text { text-align: center; margin: 10px 0; }
 </style>
 </head>
 <body>
@@ -31,10 +33,14 @@
 </div>
 
 <div class="section">
-  <img src="your-image-1.jpg" alt="Description of Image 1">
-</div>
-<div class="section">
-  <img src="your-image-2.jpg" alt="Description of Image 2">
+  <div>
+    <p class="image-text">Text Above Image 1</p>
+    <img src="your-image-1.jpg" alt="Description of Image 1">
+  </div>
+  <div>
+    <p class="image-text">Text Above Image 2</p>
+    <img src="your-image-2.jpg" alt="Description of Image 2">
+  </div>
 </div>
 
 <div class="footer">
