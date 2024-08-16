@@ -3,7 +3,7 @@ import turtle
 # Set up the screen
 screen = turtle.Screen()
 screen.setup(500, 500)
-screen.title("Oval with 4 Arcs - PythonTurtle.Academy")
+screen.title("Portrait Oval - PythonTurtle.Academy")
 
 # Set the turtle properties
 turtle.speed(1)
