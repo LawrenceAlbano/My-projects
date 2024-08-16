@@ -1,0 +1,36 @@
+import turtle
+
+# Set up the screen
+screen = turtle.Screen()
+screen.setup(500, 500)
+screen.title("Oval with 4 Arcs - PythonTurtle.Academy")
+
+# Set the turtle properties
+turtle.speed(1)
+turtle.shape('turtle')
+
+# Draw the red arc (bottom left)
+turtle.up()
+turtle.goto(-140, -75)
+turtle.down()
+turtle.seth(-45)
+turtle.color('red')
+turtle.circle(200, 90)
+
+# Draw the blue arc (bottom right)
+turtle.color('blue')
+turtle.circle(100, 90)
+
+# Draw the second red arc (top right)
+turtle.color('red')
+turtle.circle(200, 90)
+
+# Draw the second blue arc (top left)
+turtle.color('blue')
+turtle.circle(100, 90)
+
+# Hide the turtle
+turtle.hideturtle()
+
+# Keep the window open
+turtle.done()
